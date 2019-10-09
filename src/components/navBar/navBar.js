@@ -8,9 +8,9 @@ import NavButtons from "./navLinks";
 export default function NavBar() {
   return (
     <div className="nav-container">
-      <ul className="list-items">
+      <nav>
         <NavButtons />
-      </ul>
+      </nav>
     </div>
   );
 }
