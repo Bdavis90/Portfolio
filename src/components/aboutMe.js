@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AboutMe() {
   return (
-    <div className="about-container">
+    <section id="about">
       <header>
         <img src="src\components\navBar\navImage\FB_IMG_1555640228382.jpg" />
         <h1>About Me</h1>
@@ -27,6 +27,6 @@ export default function AboutMe() {
           <a>email</a>
         </li>
       </ul>
-    </div>
+    </section>
   );
 }

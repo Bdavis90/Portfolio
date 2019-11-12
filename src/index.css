@@ -1,76 +1,69 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+  color: #fff;
+  line-height: 1.6;
+  height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
 }
 
-/* .nav-container {
-  width: 14%;
+.main-container {
+  width: 100%;
   height: 100%;
-  background: #3182ce;
+}
+
+.navbar {
   position: fixed;
   top: 0;
-  text-align: center;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.7);
 }
 
-.nav-links {
+.navbar ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 10px;
+  padding: 10px;
+}
+
+.navbar ul li a {
   text-decoration: none;
-  color: white;
-  background: #3182ce;
+  text-transform: uppercase;
+  color: #f4f4f4;
 }
 
-.nav-links:hover {
-  background: white;
-  color: #3182ce;
+.navbar ul li a:hover {
+  color: skyblue;
 }
 
-.nav-list {
-  list-style-type: none;
-  padding: 0;
-}
-
-.nav-list:hover {
-  background: white;
-}
-
-.list-items {
-  padding: 0;
+section {
   display: flex;
   flex-direction: column;
-}
-
-.about-container {
-  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  width: 60%;
-} */
-
-.nav-container {
-  background: rgb(37, 51, 97);
-  height: 80px;
-  position: fixed;
+  height: 100vh;
   width: 100%;
+  scroll-snap-align: center;
 }
 
-.nav-container nav {
-  display: flex;
-  justify-content: left;
+section h1 {
+  font-size: 40px;
 }
 
-nav ul a {
-  margin-right: 20px;
-  text-decoration: none;
-  color: white;
-}
-
-.about-container {
-  padding-top: 100px;
+section p {
+  font-size: 15px;
 }
