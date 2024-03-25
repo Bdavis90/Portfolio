@@ -1,21 +1,75 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+* {
+  box-sizing: border-box;
+}
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+html {
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5;
+
+  color: #ebe7ef;
+  background: radial-gradient(#2d457a, #051436);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  min-height: 80rem;
+}
+
+header {
+  text-align: center;
+}
+
+header img {
+  border-radius: 50%;
+  height: 40vh;
+}
+menu {
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: black;
+  padding: 18px 0;
+  margin: 0;
+}
+
+
+ul li {
+  text-align: center;
+}
+
+ul.quick-links {
+  background: transparent;
+}
+
+.quick-links .fa{
+  font-size: 50px;
+}
+
+#about-me {
+  display:flex;
+  flex-wrap: wrap;
+  width: 50vw
+}
+
+#about-me p {
+  font-size: 20px;
 }
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #ffffff;
   text-decoration: inherit;
 }
 a:hover {
@@ -53,7 +107,7 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
+/* 
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -65,4 +119,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
