@@ -20,7 +20,7 @@ export const PROJECTS = [
         description: "A Hard Pill To Swallow is a first-person wave based shooter where you try to survive as long as you can. Created in a month with a team of 5 developers.",
         images: [HPTS0, HPTS1],
         link: "https://simmer.io/@BigPaperGodzla/a-hard-pill-to-swallow",
-        source: "https://github.com/Bdavis90/FantasticStarsPPII"
+        source: ""
     },
 
 ]
