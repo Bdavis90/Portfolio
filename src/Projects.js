@@ -16,9 +16,9 @@ export const PROJECTS = [
     description:
       "The Great Fleece is a point and click stealth game where you have to avoid guards and sneak to your destination, The vault.",
     images: [TGF1, TGF2, TGF3, TGF4],
-    link: "https://simmer.io/@BigPaperGodzla/a-hard-pill-to-swallow",
+    link: "https://simmer.io/@Bdavis90/the-great-fleece",
     source: ``,
-    downloadable: true,
+    downloadable: false,
   },
   {
     title: "Realm Blade",
