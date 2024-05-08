@@ -9,8 +9,19 @@ import TGF1 from "../images/TheGreatFleece/TheGreatFleece01.png";
 import TGF2 from "../images/TheGreatFleece/TheGreatFleece02.png";
 import TGF3 from "../images/TheGreatFleece/TheGreatFleece03.png";
 import TGF4 from "../images/TheGreatFleece/TheGreatFleece04.png";
+import Game2D1 from "../images/2DGame/Godot2D.png";
+import Game2D2 from "../images/2DGame/Godot2D2.png";
 
 export const PROJECTS = [
+  {
+    title: "2D Game",
+    description:
+      "A small 2D game I made using the Godot engine for the first time.",
+    images: [Game2D1, Game2D2],
+    link: "https://bdavis90.itch.io/2d-game",
+    source: `https://github.com/Bdavis90/Godot-2D-Game`,
+    downloadable: false,
+  },
   {
     title: "The Great Fleece",
     description:
