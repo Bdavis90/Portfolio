@@ -11,8 +11,20 @@ import TGF3 from "../images/TheGreatFleece/TheGreatFleece03.png";
 import TGF4 from "../images/TheGreatFleece/TheGreatFleece04.png";
 import Game2D1 from "../images/2DGame/Godot2D.png";
 import Game2D2 from "../images/2DGame/Godot2D2.png";
+import AA1 from "../images/AA/ApocalypseAcres.png";
+import AA2 from "../images/AA/ApocalypseAcres2.png";
+import AA3 from "../images/AA/ApocalypseAcres3.png";
 
 export const PROJECTS = [
+  {
+    title: "Apocalypse Acres",
+    description:
+      "Apocalypse Acres is a post-apocalyptic tower defense game where you, as Alex, protect the last fruit and vegetable stand in a nuclear-devastated world. Grow and sell produce while defending against mutant insects and managing radiation levels. Created during my first game jam collaborating with 5 developers specializing in different fields.",
+    images: [AA1, AA2, AA3],
+    link: "https://bdavis90.itch.io/apocalypse-acres",
+    source: ``,
+    downloadable: false,
+  },
   {
     title: "2D Game",
     description:
@@ -47,7 +59,7 @@ export const PROJECTS = [
     images: [HPTS0, HPTS1],
     link: "https://simmer.io/@BigPaperGodzla/a-hard-pill-to-swallow",
     source:
-      "https://github.com/fullsaildevelopment/2207-2209O-Big-Paper-Godzillas/tree/main/Codebase/Unnamed%20Project/Assets",
+      "",
     downloadable: false,
   },
 ];
