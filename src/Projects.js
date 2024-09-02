@@ -50,6 +50,7 @@ export const PROJECTS = [
     images: [RB0, RB1, RB2, RB3, RB4],
     link: "https://bigpapaergodzillas.itch.io/realm-blade",
     source: "",
+    video: "https://www.youtube.com/embed/-YVBu9d8MBs?si=REMFTa2ozgBNKKhZ",
     downloadable: false,
   },
   {
@@ -58,8 +59,8 @@ export const PROJECTS = [
       "A Hard Pill To Swallow is a first-person wave based shooter where you try to survive as long as you can. Created in a month with a team of 5 developers.",
     images: [HPTS0, HPTS1],
     link: "https://simmer.io/@BigPaperGodzla/a-hard-pill-to-swallow",
-    source:
-      "",
+    source: "",
+    video: "https://www.youtube.com/embed/RlETvrkSNlk?si=-TOo1TuPr6UKw6Sv",
     downloadable: false,
   },
 ];
