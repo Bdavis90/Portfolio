@@ -17,8 +17,21 @@ import AA3 from "../images/AA/ApocalypseAcres3.png";
 import GSM from "../images/GalaxyShooter/GSMenu.png";
 import GS1 from "../images/GalaxyShooter/GS1.png";
 import GS2 from "../images/GalaxyShooter/GS2.png";
+import BOM from "../images/Breakout/BM.png";
+import BO1 from "../images/Breakout/B1.png";
+import BO2 from "../images/Breakout/B2.png";
 
 export const PROJECTS = [
+  {
+    title: "Breakout",
+    description: `Breakout is a clone of the classic Breakout game from Atari, created using Unity. Implemented a paddle script that the player can move around to hit the ball.
+    Implemented the ball script that reflect off of surfaces and created custom logic to reflect the ball based on where it hit the paddle to give it the old school feel.
+    Implemented bricks that take multiple hits depending on the color of the brick.`,
+    images: [BOM, BO1, BO2],
+    link: "https://bdavis90.itch.io/breakout",
+    source: ``,
+    video: "https://www.youtube.com/embed/HRHNXB9OA5Y?si=rc8j72CHlxez04zK",
+  },
   {
     title: "Galaxy Shooter",
     description: `Galaxy Shooter is a 2D space shooter game where you fight off waves of ships for as long as you can. Solo project created using Unity.
